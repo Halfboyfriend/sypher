@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sypher/static/css/main.f855e6bc.css",
+    "main.js": "/sypher/static/js/main.4b01eb20.js",
+    "static/js/453.193b6a37.chunk.js": "/sypher/static/js/453.193b6a37.chunk.js",
+    "index.html": "/sypher/index.html",
+    "main.f855e6bc.css.map": "/sypher/static/css/main.f855e6bc.css.map",
+    "main.4b01eb20.js.map": "/sypher/static/js/main.4b01eb20.js.map",
+    "453.193b6a37.chunk.js.map": "/sypher/static/js/453.193b6a37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.4b01eb20.js"
+  ]
+}
