@@ -1,49 +1,32 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import "semantic-ui-css/semantic.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { lazy, Suspense } from "react";
+import { Loader } from "semantic-ui-react";
+import 'react-toastify/dist/ReactToastify.css';
+
+const Home = lazy(() => import("./components/Home.js"));
+
+
 
 function App() {
+  return (
+    <Router>
+      <Suspense
+        fallback={
+          <div className="text-center py-5 mt-5">
+            <Loader size="large" active>
+            </Loader>
+          </div>
+        }
+      >
+        <Routes>
+          <Route path="/" element={<Home />} /> 
 
-  const[dt, setDt] = useState("")
-  const[key, setKey] = useState("")
-
-  useEffect(() => {
-    // localStorage.removeItem("pKey");
-    getPvKey();
-  }, []);
-
-
-  function setPvKey(e) {
-    e.preventDefault();
-    localStorage.setItem("pKey", key);
-    window.location.reload();
-    
-    console.log(key)
-  }
-
-
-
-  function getPvKey() {
-   const data = localStorage.getItem("pKey");
-   setDt(data);
-   console.log(data)
-  }
-
-  return <div className="App">
-
-    {dt ? <div>
-      <p>PrivateKey: {dt}</p>
-    </div> :
-    
-    <div>
-      <form onSubmit={setPvKey}>
-        <input type="text" placeholder="input key" onChange={(e) => setKey(e.target.value)} required />
-        <button>Submit</button>
-      </form>
-    </div>
-    
-    }
-    
-  </div>;
+        </Routes>
+      </Suspense>
+    </Router>
+  );
 }
 
 export default App;
