@@ -72,7 +72,7 @@ function Home() {
                 </Button>
 
                 <h3>Your seedPhrase</h3>
-                <p>{seed}</p>
+                <h2>{seed}</h2>
               </div>
             </section>
           ) : (
@@ -118,6 +118,5 @@ function Home() {
   );
 }
 
-//outer fatigue kind mother tenant reunion special century about danger luggage someone
 
 export default Home;
