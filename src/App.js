@@ -5,7 +5,7 @@ import React, { lazy, Suspense } from "react";
 import { Loader } from "semantic-ui-react";
 import 'react-toastify/dist/ReactToastify.css';
 
-const Home = lazy(() => import("./components/Home.js"));
+const Home = lazy(() => import("./pages/Home.js"));
 
 
 
