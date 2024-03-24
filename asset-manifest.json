@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sypher/static/css/main.67ac41e4.css",
-    "main.js": "/sypher/static/js/main.f7eb5a2c.js",
-    "static/js/936.3abf835f.chunk.js": "/sypher/static/js/936.3abf835f.chunk.js",
+    "main.js": "/sypher/static/js/main.97ab7429.js",
+    "static/js/936.eb60e2e0.chunk.js": "/sypher/static/js/936.eb60e2e0.chunk.js",
     "static/js/453.ddcd4422.chunk.js": "/sypher/static/js/453.ddcd4422.chunk.js",
     "static/js/445.26e6e4ea.chunk.js": "/sypher/static/js/445.26e6e4ea.chunk.js",
     "static/media/brand-icons.svg": "/sypher/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -24,13 +24,13 @@
     "static/media/outline-icons.woff2": "/sypher/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/sypher/index.html",
     "main.67ac41e4.css.map": "/sypher/static/css/main.67ac41e4.css.map",
-    "main.f7eb5a2c.js.map": "/sypher/static/js/main.f7eb5a2c.js.map",
-    "936.3abf835f.chunk.js.map": "/sypher/static/js/936.3abf835f.chunk.js.map",
+    "main.97ab7429.js.map": "/sypher/static/js/main.97ab7429.js.map",
+    "936.eb60e2e0.chunk.js.map": "/sypher/static/js/936.eb60e2e0.chunk.js.map",
     "453.ddcd4422.chunk.js.map": "/sypher/static/js/453.ddcd4422.chunk.js.map",
     "445.26e6e4ea.chunk.js.map": "/sypher/static/js/445.26e6e4ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67ac41e4.css",
-    "static/js/main.f7eb5a2c.js"
+    "static/js/main.97ab7429.js"
   ]
 }
